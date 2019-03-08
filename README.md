@@ -2,7 +2,7 @@
 Create Your Website Instantly using Live-Server, Sass, Bootstrap 4.3.1, jQuery and Node-Sass!
 
 
-DOWNLOAD THE PACKAGE:
+Download the package:
 =====================
 1. npm install create-website-app
 2. Move into the node_modules/create-website-app
@@ -13,14 +13,14 @@ The files are configured so that you can start typing you Sass, Bootstrap 4 clas
 Now: using the Command Line install everything that is pre-defined in package.json
 
 
-BUILD THE PROJECT:
+Build the project:
 ==================
 3. "npm install"  
 4. "npm run build:css"
 
 
 
-RUN YOU WEBSITE PROJECT:
+Run your project:
 ========================
 5. "npm start"
 
