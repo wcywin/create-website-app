@@ -1,0 +1,126 @@
+.hpm-table-wrapper {
+  position: relative;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.hpm-table-scroller {
+  margin-left: 160px;
+  overflow-x: scroll;
+  overflow-y: visible;
+  width: auto;
+}
+
+.hpm-lysol-table {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font: $font-primary;
+  font-size: 13px;
+
+
+  // THEAD
+  thead {
+    th {
+      border: none;
+      padding: 10px;
+      text-align: center;
+      width: 120px;
+
+      img {
+        width: 120px;
+        margin-bottom: 5px;
+      }
+
+      a {
+        color: $lysol-table-link;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  // TBODY
+  tbody {
+
+    tr:first-of-type {
+      td {
+        border-top: solid 1px $lysol-table-grey-border;
+      }
+    }
+
+    td {
+      border-bottom: solid 1px $lysol-table-grey-border;
+      color: #333;
+      padding: 10px;
+      text-align: center;
+      width: 120px;
+      font-weight: 400;
+    }
+  }
+
+  // STICKY COL
+  .hpm-sticky-col {
+    border-top: 1px solid $lysol-table-grey-border;
+    border-bottom: 1px solid $lysol-table-grey-border;
+    background-color: $lysol-table-grey-background;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: auto;
+    width: 160px;
+    min-height: 100%;
+
+    &--first {
+      border: none;
+      background-color: transparent;
+      color: white;
+    }
+
+    &--last {
+      height: 120px;
+    }
+  }
+}
+
+//.zui-table {
+//  border: none;
+//  border-right: solid 1px #DDEFEF;
+//  border-collapse: separate;
+//  border-spacing: 0;
+//  font: normal 13px Arial, sans-serif;
+//}
+//.zui-table thead th {
+//  background-color: #DDEFEF;
+//  border: none;
+//  color: #336B6B;
+//  padding: 10px;
+//  text-align: left;
+//  text-shadow: 1px 1px 1px #fff;
+//  white-space: nowrap;
+//}
+//.zui-table tbody td {
+//  border-bottom: solid 1px #DDEFEF;
+//  color: #333;
+//  padding: 10px;
+//  text-shadow: 1px 1px 1px #fff;
+//  white-space: nowrap;
+//}
+//.zui-wrapper {
+//  position: relative;
+//}
+//
+//.zui-scroller {
+//  margin-left: 141px;
+//  overflow-x: scroll;
+//  overflow-y: visible;
+//  padding-bottom: 5px;
+//  width: 300px;
+//}
+//.zui-table .zui-sticky-col {
+//  border-left: solid 1px #DDEFEF;
+//  border-right: solid 1px #DDEFEF;
+//  left: 0;
+//  position: absolute;
+//  top: auto;
+//  width: 120px;
+//}
